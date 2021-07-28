@@ -1,5 +1,4 @@
-const printFibonacciNumbers = (n) =>
-{
+const printFibonacciNumbers = (n) => {
   if(!Number.isInteger(n)){
       console.log("Only integers are permitted! Please try again.");
       return;
